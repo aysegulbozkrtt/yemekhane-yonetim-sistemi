@@ -1,0 +1,13 @@
+{
+  "name": "yemekhane-yonetim-sistemi",
+  "version": "1.0.0",
+  "description": "Yemekhane yönetim sistemi - günlük menü, öğrenci sayısı, tüketim, israf ve maliyet takibi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yemekhane Yönetim Sistemi</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<!-- Üst çubuk -->
+<header class="topbar">
+  <button id="hamburgerBtn" class="hamburger" aria-label="Menüyü aç">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="topbar-title">
+    <span class="topbar-icon">🍽️</span>
+    <span>Yemekhane Yönetim Sistemi</span>
+  </div>
+  <div class="topbar-date" id="topbarDate"></div>
+</header>
+
+<!-- Kenar menü -->
+<div id="overlay" class="overlay"></div>
+<nav id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <span class="sidebar-logo">🍽️</span>
+    <div>
+      <div class="sidebar-title">Yemekhane</div>
+      <div class="sidebar-subtitle">Yönetim Paneli</div>
+    </div>
+  </div>
+  <ul class="nav-list">
+    <li><a href="#dashboard" class="nav-link" data-view="dashboard"><span class="nav-icon">🏠</span>Ana Sayfa</a></li>
+    <li><a href="#menu" class="nav-link" data-view="menu"><span class="nav-icon">📋</span>Günlük Menü</a></li>
+    <li><a href="#students" class="nav-link" data-view="students"><span class="nav-icon">🎓</span>Öğrenci Sayısı</a></li>
+    <li><a href="#consumption" class="nav-link" data-view="consumption"><span class="nav-icon">🍲</span>Tüketim &amp; İsraf</a></li>
+    <li><a href="#cost" class="nav-link" data-view="cost"><span class="nav-icon">💰</span>Maliyet Analizi</a></li>
+    <li><a href="#analysis" class="nav-link" data-view="analysis"><span class="nav-icon">📊</span>Analiz Raporları</a></li>
+  </ul>
+  <div class="sidebar-footer">v1.0 · Yerel veri deposu</div>
+</nav>
+
+<main id="mainContent" class="main-content">
+
+  <!-- ================= DASHBOARD ================= -->
+  <section id="view-dashboard" class="view">
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Hoş geldiniz 👋</h1>
+        <p>Günlük menüyü, öğrenci sayısını, yemek tüketimini, israf miktarını ve maliyetleri tek yerden takip edin.</p>
+        <a href="#menu" class="hero-btn nav-link" data-view="menu">Bugünün menüsünü ekle</a>
+      </div>
+      <div class="hero-art">🍛🥗🍚</div>
+    </div>
+
+    <div class="stat-grid" id="dashboardStats"></div>
+
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>Maliyet Trendi</h3>
+        <canvas id="chartCostTrend" height="220"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Tüketim vs Hazırlanan (Porsiyon)</h3>
+        <canvas id="chartConsumptionTrend" height="220"></canvas>
+      </div>
+    </div>
+
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>🏆 En Çok Tüketilen 5 Yemek</h3>
+        <ol class="rank-list" id="dashTopDishes"></ol>
+      </div>
+      <div class="panel">
+        <h3>📉 En Az Tüketilen 5 Yemek</h3>
+        <ol class="rank-list" id="dashLowDishes"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MENU ================= -->
+  <section id="view-menu" class="view hidden">
+    <div class="view-header">
+      <h2>📋 Günlük Menü</h2>
+      <button id="btnNewDay" class="btn-primary">+ Yeni Gün Ekle</button>
+    </div>
+
+    <div id="dayFormPanel" class="panel form-panel hidden">
+      <h3 id="dayFormTitle">Yeni Gün Kaydı</h3>
+      <form id="dayForm">
+        <input type="hidden" id="dayId" />
+        <div class="form-row">
+          <label>Tarih
+            <input type="date" id="dayDate" required />
+          </label>
+          <label>Öğrenci Sayısı
+            <input type="number" id="dayStudentCount" min="0" required />
+          </label>
+        </div>
+
+        <h4>Yemekler</h4>
+        <div id="mealsContainer"></div>
+        <button type="button" id="btnAddMeal" class="btn-secondary">+ Yemek Ekle</button>
+
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Kaydet</button>
+          <button type="button" id="btnCancelDay" class="btn-secondary">Vazgeç</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="day-list" id="dayList"></div>
+  </section>
+
+  <!-- ================= STUDENTS ================= -->
+  <section id="view-students" class="view hidden">
+    <div class="view-header"><h2>🎓 Öğrenci Sayısı</h2></div>
+    <div class="stat-grid" id="studentStats"></div>
+    <div class="panel">
+      <h3>Günlük Öğrenci Sayısı Trendi</h3>
+      <canvas id="chartStudents" height="220"></canvas>
+    </div>
+    <div class="panel">
+      <h3>Tarihe Göre Kayıtlar</h3>
+      <div class="table-wrap">
+        <table class="data-table" id="studentTable"></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONSUMPTION & WASTE ================= -->
+  <section id="view-consumption" class="view hidden">
+    <div class="view-header"><h2>🍲 Yemek Tüketimi &amp; İsraf</h2></div>
+    <div class="stat-grid" id="consumptionStats"></div>
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>Günlük Tüketim (Porsiyon)</h3>
+        <canvas id="chartConsumption" height="220"></canvas>
+      </div>
+      <div class="panel">
+        <h3>Günlük İsraf (kg)</h3>
+        <canvas id="chartWaste" height="220"></canvas>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>Yemek Bazlı Tüketim &amp; İsraf Detayı</h3>
+      <div class="table-wrap">
+        <table class="data-table" id="dishTable"></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= COST ================= -->
+  <section id="view-cost" class="view hidden">
+    <div class="view-header"><h2>💰 Maliyet Analizi</h2></div>
+    <div class="stat-grid" id="costStats"></div>
+    <div class="panel">
+      <h3>Günlük Toplam Maliyet ve İsraf Maliyeti (₺)</h3>
+      <canvas id="chartCost" height="240"></canvas>
+    </div>
+    <div class="panel">
+      <h3>Yemek Bazlı Maliyet Detayı</h3>
+      <div class="table-wrap">
+        <table class="data-table" id="costTable"></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ANALYSIS ================= -->
+  <section id="view-analysis" class="view hidden">
+    <div class="view-header"><h2>📊 Analiz Raporları</h2></div>
+    <div class="panel-grid">
+      <div class="panel">
+        <h3>🏆 En Çok Tüketilen Yemekler</h3>
+        <canvas id="chartMostConsumed" height="240"></canvas>
+      </div>
+      <div class="panel">
+        <h3>📉 En Az Tüketilen Yemekler</h3>
+        <canvas id="chartLeastConsumed" height="240"></canvas>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>🗑️ En Çok İsraf Edilen Yemekler</h3>
+      <canvas id="chartMostWasted" height="220"></canvas>
+    </div>
+    <div class="panel">
+      <h3>Detaylı Yemek Karnesi</h3>
+      <div class="table-wrap">
+        <table class="data-table" id="analysisTable"></table>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,991 @@
+{
+  "days": [
+    {
+      "id": "e6e8f188-bd77-457f-980a-ef9d071c7979",
+      "date": "2026-07-10",
+      "studentCount": 937,
+      "meals": [
+        {
+          "dishName": "Mercimek Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 940,
+          "consumedPortion": 747,
+          "wasteKg": 51.67,
+          "unitCost": 8.13
+        },
+        {
+          "dishName": "Sebze Türlü",
+          "category": "Ana Yemek",
+          "plannedPortion": 873,
+          "consumedPortion": 275,
+          "wasteKg": 112.52,
+          "unitCost": 12.52
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 800,
+          "consumedPortion": 547,
+          "wasteKg": 50.55,
+          "unitCost": 5.36
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 943,
+          "consumedPortion": 504,
+          "wasteKg": 122.76,
+          "unitCost": 6.37
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 984,
+          "consumedPortion": 457,
+          "wasteKg": 122.91,
+          "unitCost": 6.13
+        }
+      ]
+    },
+    {
+      "id": "7455a85c-895f-427a-973d-7f82e9a3d9fd",
+      "date": "2026-07-13",
+      "studentCount": 741,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 737,
+          "consumedPortion": 594,
+          "wasteKg": 31.34,
+          "unitCost": 10.89
+        },
+        {
+          "dishName": "Tavuk Sote",
+          "category": "Ana Yemek",
+          "plannedPortion": 760,
+          "consumedPortion": 638,
+          "wasteKg": 34.99,
+          "unitCost": 27.2
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 745,
+          "consumedPortion": 694,
+          "wasteKg": 11.23,
+          "unitCost": 6.81
+        },
+        {
+          "dishName": "Cacık",
+          "category": "Salata",
+          "plannedPortion": 642,
+          "consumedPortion": 286,
+          "wasteKg": 104.26,
+          "unitCost": 4.42
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 730,
+          "consumedPortion": 324,
+          "wasteKg": 129.39,
+          "unitCost": 8.77
+        }
+      ]
+    },
+    {
+      "id": "af978b41-3d19-4116-a611-a984e5daa74e",
+      "date": "2026-07-14",
+      "studentCount": 755,
+      "meals": [
+        {
+          "dishName": "Mercimek Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 746,
+          "consumedPortion": 645,
+          "wasteKg": 28.35,
+          "unitCost": 10.69
+        },
+        {
+          "dishName": "Sebze Türlü",
+          "category": "Ana Yemek",
+          "plannedPortion": 769,
+          "consumedPortion": 274,
+          "wasteKg": 97.43,
+          "unitCost": 10.09
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 689,
+          "consumedPortion": 599,
+          "wasteKg": 16.87,
+          "unitCost": 6.45
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 720,
+          "consumedPortion": 390,
+          "wasteKg": 104.7,
+          "unitCost": 5.74
+        },
+        {
+          "dishName": "Sütlaç",
+          "category": "Tatlı",
+          "plannedPortion": 736,
+          "consumedPortion": 504,
+          "wasteKg": 63.66,
+          "unitCost": 11.08
+        }
+      ]
+    },
+    {
+      "id": "f955176c-890a-4cba-a671-03d6259db677",
+      "date": "2026-07-15",
+      "studentCount": 975,
+      "meals": [
+        {
+          "dishName": "Mercimek Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 1023,
+          "consumedPortion": 940,
+          "wasteKg": 24.06,
+          "unitCost": 9.61
+        },
+        {
+          "dishName": "Kuru Fasulye",
+          "category": "Ana Yemek",
+          "plannedPortion": 874,
+          "consumedPortion": 687,
+          "wasteKg": 49.06,
+          "unitCost": 16.14
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 945,
+          "consumedPortion": 810,
+          "wasteKg": 25.61,
+          "unitCost": 6.26
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 899,
+          "consumedPortion": 467,
+          "wasteKg": 98,
+          "unitCost": 5.17
+        },
+        {
+          "dishName": "Sütlaç",
+          "category": "Tatlı",
+          "plannedPortion": 851,
+          "consumedPortion": 608,
+          "wasteKg": 67.87,
+          "unitCost": 9.69
+        }
+      ]
+    },
+    {
+      "id": "1a72969b-818a-44da-8306-6f2b4574a395",
+      "date": "2026-07-16",
+      "studentCount": 998,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 978,
+          "consumedPortion": 589,
+          "wasteKg": 71.22,
+          "unitCost": 8.33
+        },
+        {
+          "dishName": "Mantı",
+          "category": "Ana Yemek",
+          "plannedPortion": 867,
+          "consumedPortion": 570,
+          "wasteKg": 83.92,
+          "unitCost": 26.21
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 911,
+          "consumedPortion": 616,
+          "wasteKg": 90.98,
+          "unitCost": 5.85
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 966,
+          "consumedPortion": 497,
+          "wasteKg": 114.03,
+          "unitCost": 5.34
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 886,
+          "consumedPortion": 412,
+          "wasteKg": 124.04,
+          "unitCost": 6.51
+        }
+      ]
+    },
+    {
+      "id": "80443e6f-23bf-4933-9e30-398cd43d1a94",
+      "date": "2026-07-17",
+      "studentCount": 797,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 812,
+          "consumedPortion": 473,
+          "wasteKg": 64.39,
+          "unitCost": 9.87
+        },
+        {
+          "dishName": "Karnıyarık",
+          "category": "Ana Yemek",
+          "plannedPortion": 771,
+          "consumedPortion": 558,
+          "wasteKg": 64.81,
+          "unitCost": 21.17
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 748,
+          "consumedPortion": 615,
+          "wasteKg": 25.53,
+          "unitCost": 6.71
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 768,
+          "consumedPortion": 656,
+          "wasteKg": 29.06,
+          "unitCost": 3.02
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 768,
+          "consumedPortion": 376,
+          "wasteKg": 71.43,
+          "unitCost": 7.04
+        }
+      ]
+    },
+    {
+      "id": "c5b6f39c-f1c5-4c15-af15-b2054b337197",
+      "date": "2026-07-20",
+      "studentCount": 867,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 849,
+          "consumedPortion": 616,
+          "wasteKg": 73.45,
+          "unitCost": 9.9
+        },
+        {
+          "dishName": "Balık Izgara",
+          "category": "Ana Yemek",
+          "plannedPortion": 889,
+          "consumedPortion": 438,
+          "wasteKg": 114.94,
+          "unitCost": 37.85
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 908,
+          "consumedPortion": 684,
+          "wasteKg": 65.39,
+          "unitCost": 6.92
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 751,
+          "consumedPortion": 581,
+          "wasteKg": 46.91,
+          "unitCost": 3.48
+        },
+        {
+          "dishName": "Sütlaç",
+          "category": "Tatlı",
+          "plannedPortion": 881,
+          "consumedPortion": 572,
+          "wasteKg": 84.09,
+          "unitCost": 11.04
+        }
+      ]
+    },
+    {
+      "id": "6bdcbcce-233c-405a-a70c-8608b019406b",
+      "date": "2026-07-21",
+      "studentCount": 773,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 723,
+          "consumedPortion": 429,
+          "wasteKg": 57.04,
+          "unitCost": 8.28
+        },
+        {
+          "dishName": "Nohut Yemeği",
+          "category": "Ana Yemek",
+          "plannedPortion": 668,
+          "consumedPortion": 342,
+          "wasteKg": 65.58,
+          "unitCost": 12.69
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 692,
+          "consumedPortion": 511,
+          "wasteKg": 43.35,
+          "unitCost": 6.98
+        },
+        {
+          "dishName": "Cacık",
+          "category": "Salata",
+          "plannedPortion": 796,
+          "consumedPortion": 345,
+          "wasteKg": 114.67,
+          "unitCost": 4.65
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 800,
+          "consumedPortion": 353,
+          "wasteKg": 109.56,
+          "unitCost": 7.09
+        }
+      ]
+    },
+    {
+      "id": "544fbbd2-ea5e-4a6a-8209-2c2faeb2c148",
+      "date": "2026-07-22",
+      "studentCount": 848,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 801,
+          "consumedPortion": 670,
+          "wasteKg": 31.55,
+          "unitCost": 10.64
+        },
+        {
+          "dishName": "Karnıyarık",
+          "category": "Ana Yemek",
+          "plannedPortion": 746,
+          "consumedPortion": 491,
+          "wasteKg": 76.36,
+          "unitCost": 20.38
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 796,
+          "consumedPortion": 564,
+          "wasteKg": 71.33,
+          "unitCost": 6.1
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 868,
+          "consumedPortion": 516,
+          "wasteKg": 92.2,
+          "unitCost": 5.64
+        },
+        {
+          "dishName": "Kemalpaşa Tatlısı",
+          "category": "Tatlı",
+          "plannedPortion": 865,
+          "consumedPortion": 300,
+          "wasteKg": 112.48,
+          "unitCost": 11.93
+        }
+      ]
+    },
+    {
+      "id": "db721cfd-76a6-45f8-a98a-f107a3d1ccce",
+      "date": "2026-07-23",
+      "studentCount": 850,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 803,
+          "consumedPortion": 649,
+          "wasteKg": 48.29,
+          "unitCost": 10.07
+        },
+        {
+          "dishName": "Etli Kuru Fasulye",
+          "category": "Ana Yemek",
+          "plannedPortion": 757,
+          "consumedPortion": 584,
+          "wasteKg": 53,
+          "unitCost": 24.62
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 879,
+          "consumedPortion": 801,
+          "wasteKg": 17.01,
+          "unitCost": 7.03
+        },
+        {
+          "dishName": "Cacık",
+          "category": "Salata",
+          "plannedPortion": 755,
+          "consumedPortion": 305,
+          "wasteKg": 125.73,
+          "unitCost": 4.16
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 782,
+          "consumedPortion": 395,
+          "wasteKg": 96.12,
+          "unitCost": 6.91
+        }
+      ]
+    },
+    {
+      "id": "2b9f2564-f2d0-4637-becf-54e4c1ce2d43",
+      "date": "2026-07-24",
+      "studentCount": 749,
+      "meals": [
+        {
+          "dishName": "Mercimek Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 781,
+          "consumedPortion": 724,
+          "wasteKg": 10.67,
+          "unitCost": 10.51
+        },
+        {
+          "dishName": "Balık Izgara",
+          "category": "Ana Yemek",
+          "plannedPortion": 785,
+          "consumedPortion": 342,
+          "wasteKg": 109.63,
+          "unitCost": 35.75
+        },
+        {
+          "dishName": "Makarna",
+          "category": "Yardımcı",
+          "plannedPortion": 776,
+          "consumedPortion": 617,
+          "wasteKg": 31,
+          "unitCost": 8.17
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 682,
+          "consumedPortion": 549,
+          "wasteKg": 38.15,
+          "unitCost": 3.45
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 640,
+          "consumedPortion": 304,
+          "wasteKg": 96.04,
+          "unitCost": 8.81
+        }
+      ]
+    },
+    {
+      "id": "19ccf921-e0a0-47d7-8141-9760a2b590ac",
+      "date": "2026-07-27",
+      "studentCount": 919,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 801,
+          "consumedPortion": 655,
+          "wasteKg": 34.83,
+          "unitCost": 10.31
+        },
+        {
+          "dishName": "Lahmacun",
+          "category": "Ana Yemek",
+          "plannedPortion": 874,
+          "consumedPortion": 236,
+          "wasteKg": 158.1,
+          "unitCost": 19.76
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 859,
+          "consumedPortion": 743,
+          "wasteKg": 35.36,
+          "unitCost": 7.15
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 848,
+          "consumedPortion": 467,
+          "wasteKg": 92.5,
+          "unitCost": 6.79
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 903,
+          "consumedPortion": 441,
+          "wasteKg": 101.14,
+          "unitCost": 7.8
+        }
+      ]
+    },
+    {
+      "id": "4455e9cd-c92e-4791-ae3c-72d7c6821229",
+      "date": "2026-07-28",
+      "studentCount": 976,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 968,
+          "consumedPortion": 546,
+          "wasteKg": 110.05,
+          "unitCost": 9.93
+        },
+        {
+          "dishName": "Nohut Yemeği",
+          "category": "Ana Yemek",
+          "plannedPortion": 927,
+          "consumedPortion": 446,
+          "wasteKg": 89.68,
+          "unitCost": 14.56
+        },
+        {
+          "dishName": "Makarna",
+          "category": "Yardımcı",
+          "plannedPortion": 848,
+          "consumedPortion": 661,
+          "wasteKg": 43.65,
+          "unitCost": 6.6
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 997,
+          "consumedPortion": 804,
+          "wasteKg": 55.35,
+          "unitCost": 3.51
+        },
+        {
+          "dishName": "Kemalpaşa Tatlısı",
+          "category": "Tatlı",
+          "plannedPortion": 953,
+          "consumedPortion": 363,
+          "wasteKg": 108.89,
+          "unitCost": 11.68
+        }
+      ]
+    },
+    {
+      "id": "71bdfb2f-cdf5-473c-9833-6385ddbb808c",
+      "date": "2026-07-29",
+      "studentCount": 944,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 861,
+          "consumedPortion": 466,
+          "wasteKg": 72.77,
+          "unitCost": 7.06
+        },
+        {
+          "dishName": "Balık Izgara",
+          "category": "Ana Yemek",
+          "plannedPortion": 869,
+          "consumedPortion": 417,
+          "wasteKg": 91.32,
+          "unitCost": 37.83
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 954,
+          "consumedPortion": 722,
+          "wasteKg": 52.6,
+          "unitCost": 6.91
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 895,
+          "consumedPortion": 694,
+          "wasteKg": 48.15,
+          "unitCost": 3.67
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 930,
+          "consumedPortion": 430,
+          "wasteKg": 130.03,
+          "unitCost": 6.78
+        }
+      ]
+    },
+    {
+      "id": "c06b3f38-8f34-495a-9520-1defd3abb086",
+      "date": "2026-07-30",
+      "studentCount": 756,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 700,
+          "consumedPortion": 516,
+          "wasteKg": 40.1,
+          "unitCost": 8.71
+        },
+        {
+          "dishName": "Etli Kuru Fasulye",
+          "category": "Ana Yemek",
+          "plannedPortion": 720,
+          "consumedPortion": 542,
+          "wasteKg": 46.64,
+          "unitCost": 26.75
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 678,
+          "consumedPortion": 467,
+          "wasteKg": 64.98,
+          "unitCost": 5.12
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 775,
+          "consumedPortion": 713,
+          "wasteKg": 12.47,
+          "unitCost": 3.93
+        },
+        {
+          "dishName": "Kemalpaşa Tatlısı",
+          "category": "Tatlı",
+          "plannedPortion": 738,
+          "consumedPortion": 290,
+          "wasteKg": 134.23,
+          "unitCost": 11.92
+        }
+      ]
+    },
+    {
+      "id": "de1f7b89-2c52-486d-b8fc-862cf9fb2057",
+      "date": "2026-07-31",
+      "studentCount": 871,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 866,
+          "consumedPortion": 444,
+          "wasteKg": 126.94,
+          "unitCost": 7.27
+        },
+        {
+          "dishName": "Sebze Türlü",
+          "category": "Ana Yemek",
+          "plannedPortion": 780,
+          "consumedPortion": 237,
+          "wasteKg": 139.97,
+          "unitCost": 12.94
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 808,
+          "consumedPortion": 718,
+          "wasteKg": 28.14,
+          "unitCost": 6.28
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 767,
+          "consumedPortion": 431,
+          "wasteKg": 84.3,
+          "unitCost": 5.08
+        },
+        {
+          "dishName": "Sütlaç",
+          "category": "Tatlı",
+          "plannedPortion": 757,
+          "consumedPortion": 511,
+          "wasteKg": 76.48,
+          "unitCost": 10.46
+        }
+      ]
+    },
+    {
+      "id": "502a7060-e4c3-460e-bd14-30a62fdcd133",
+      "date": "2026-08-03",
+      "studentCount": 979,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 842,
+          "consumedPortion": 688,
+          "wasteKg": 49.06,
+          "unitCost": 8.56
+        },
+        {
+          "dishName": "Mantı",
+          "category": "Ana Yemek",
+          "plannedPortion": 967,
+          "consumedPortion": 654,
+          "wasteKg": 95.57,
+          "unitCost": 24.5
+        },
+        {
+          "dishName": "Makarna",
+          "category": "Yardımcı",
+          "plannedPortion": 996,
+          "consumedPortion": 804,
+          "wasteKg": 45.81,
+          "unitCost": 8.43
+        },
+        {
+          "dishName": "Cacık",
+          "category": "Salata",
+          "plannedPortion": 916,
+          "consumedPortion": 393,
+          "wasteKg": 107.45,
+          "unitCost": 5.7
+        },
+        {
+          "dishName": "Kemalpaşa Tatlısı",
+          "category": "Tatlı",
+          "plannedPortion": 967,
+          "consumedPortion": 349,
+          "wasteKg": 190.02,
+          "unitCost": 12.95
+        }
+      ]
+    },
+    {
+      "id": "c63a0c9a-dd3b-4157-bd32-277739e9624a",
+      "date": "2026-08-04",
+      "studentCount": 743,
+      "meals": [
+        {
+          "dishName": "Ezogelin Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 762,
+          "consumedPortion": 652,
+          "wasteKg": 20.95,
+          "unitCost": 8.53
+        },
+        {
+          "dishName": "Nohut Yemeği",
+          "category": "Ana Yemek",
+          "plannedPortion": 764,
+          "consumedPortion": 371,
+          "wasteKg": 106.15,
+          "unitCost": 14.58
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 647,
+          "consumedPortion": 507,
+          "wasteKg": 30.55,
+          "unitCost": 5.68
+        },
+        {
+          "dishName": "Mevsim Salata",
+          "category": "Salata",
+          "plannedPortion": 776,
+          "consumedPortion": 488,
+          "wasteKg": 91.81,
+          "unitCost": 5.25
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 691,
+          "consumedPortion": 351,
+          "wasteKg": 97.98,
+          "unitCost": 7.57
+        }
+      ]
+    },
+    {
+      "id": "48b42eec-4f79-496c-9dbc-fde48e2b465e",
+      "date": "2026-08-05",
+      "studentCount": 706,
+      "meals": [
+        {
+          "dishName": "Mercimek Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 664,
+          "consumedPortion": 564,
+          "wasteKg": 30.81,
+          "unitCost": 10.65
+        },
+        {
+          "dishName": "Nohut Yemeği",
+          "category": "Ana Yemek",
+          "plannedPortion": 607,
+          "consumedPortion": 297,
+          "wasteKg": 83.55,
+          "unitCost": 13.63
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 643,
+          "consumedPortion": 486,
+          "wasteKg": 37.48,
+          "unitCost": 6.9
+        },
+        {
+          "dishName": "Cacık",
+          "category": "Salata",
+          "plannedPortion": 737,
+          "consumedPortion": 298,
+          "wasteKg": 84.53,
+          "unitCost": 4.15
+        },
+        {
+          "dishName": "Sütlaç",
+          "category": "Tatlı",
+          "plannedPortion": 682,
+          "consumedPortion": 499,
+          "wasteKg": 45.89,
+          "unitCost": 9.26
+        }
+      ]
+    },
+    {
+      "id": "0fb9089c-48cf-47d5-9f82-4a0a7f3b87c9",
+      "date": "2026-08-06",
+      "studentCount": 777,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 789,
+          "consumedPortion": 472,
+          "wasteKg": 75.11,
+          "unitCost": 9.65
+        },
+        {
+          "dishName": "Etli Kuru Fasulye",
+          "category": "Ana Yemek",
+          "plannedPortion": 692,
+          "consumedPortion": 601,
+          "wasteKg": 20.42,
+          "unitCost": 29.08
+        },
+        {
+          "dishName": "Pirinç Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 772,
+          "consumedPortion": 630,
+          "wasteKg": 33.59,
+          "unitCost": 6.84
+        },
+        {
+          "dishName": "Cacık",
+          "category": "Salata",
+          "plannedPortion": 739,
+          "consumedPortion": 340,
+          "wasteKg": 89.31,
+          "unitCost": 4.51
+        },
+        {
+          "dishName": "Meyve",
+          "category": "Tatlı",
+          "plannedPortion": 753,
+          "consumedPortion": 342,
+          "wasteKg": 102.46,
+          "unitCost": 8.65
+        }
+      ]
+    },
+    {
+      "id": "bc4c5ff6-bbc2-4b92-98fb-8c19b6cf7e46",
+      "date": "2026-08-07",
+      "studentCount": 752,
+      "meals": [
+        {
+          "dishName": "Yayla Çorbası",
+          "category": "Çorba",
+          "plannedPortion": 778,
+          "consumedPortion": 437,
+          "wasteKg": 101.34,
+          "unitCost": 9.95
+        },
+        {
+          "dishName": "Mantı",
+          "category": "Ana Yemek",
+          "plannedPortion": 731,
+          "consumedPortion": 479,
+          "wasteKg": 48.96,
+          "unitCost": 23.07
+        },
+        {
+          "dishName": "Bulgur Pilavı",
+          "category": "Yardımcı",
+          "plannedPortion": 705,
+          "consumedPortion": 526,
+          "wasteKg": 54.9,
+          "unitCost": 5.09
+        },
+        {
+          "dishName": "Ayran",
+          "category": "İçecek",
+          "plannedPortion": 779,
+          "consumedPortion": 696,
+          "wasteKg": 23.74,
+          "unitCost": 3.69
+        },
+        {
+          "dishName": "Kemalpaşa Tatlısı",
+          "category": "Tatlı",
+          "plannedPortion": 652,
+          "consumedPortion": 229,
+          "wasteKg": 83.03,
+          "unitCost": 10.98
+        }
+      ]
+    }
+  ]
+}
